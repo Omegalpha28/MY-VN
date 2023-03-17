@@ -4,5 +4,5 @@ Hola amigos. It's my first visual novel project and i haven't idea for the scrip
 # Languages
 Rent'py and Python are the best to coding my vn.
 # Staff
-... 
+> - Omegalpha28 (me :sob:)
 
