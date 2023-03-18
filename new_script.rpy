@@ -1,5 +1,6 @@
 init:
 
+    $ main_inventory = []
     $ import time
     $ year,mounth,day,hour,minute,second,dow,doy,dst = time.localtime()
 
@@ -11,7 +12,9 @@ init:
     define m = Character(('[main]'), color="#ff9100")
     define e = Character(('Emilia'), color="#FF57E8")
     define d = Character(('Delphinium'), color="#8202B2" )
-    define nobody = Character((' '), color="#000000")
+    define nobody = Character((''), color="#000000")
+    define di = Character(('Director Zirou'), color="#063971")
+    define u = Character(('???'), color="#3a3e798a")
     
     
 
@@ -21,11 +24,11 @@ label start:
     jump begin
 
 
-
-# intro de l'histoire  
+# intro de l'histoire 
 label begin:
-    "..."
+    call arc_one_chapter_one
     return  
+
 
 
 
