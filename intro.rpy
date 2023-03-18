@@ -15,5 +15,7 @@ label intro:
     "Is that so..."
     stop music
     "Everything is just an eternal beginning."
+    jump opening
+
+label opening:
     return
-        
