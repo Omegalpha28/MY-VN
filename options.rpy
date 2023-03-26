@@ -1,4 +1,4 @@
-﻿## Ce fichier contient les options qui peuvent être modifiées pour personnaliser
+## Ce fichier contient les options qui peuvent être modifiées pour personnaliser
 ## votre jeu.
 ##
 ## Les lignes qui commencent avec deux dièses '#' sont des commentaires et vous
@@ -9,13 +9,14 @@
 
 ## Bases #######################################################################
 
+
 ## Un nom de jeu intelligible. Il est utilisé pour personnaliser le titre de la
 ## fenêtre par défaut et s’affiche dans l’interface ainsi que dans les rapports
 ## d’erreur.
 ##
 ## La chaîne de caractère contenu dans _() est éligible à la traduction.
 
-define config.name = _("Omegasus")
+define config.name = _("Vn_land_saga")
 
 
 ## Détermine si le titre renseigné plus haut est affiché sur l'écran du menu
@@ -26,7 +27,7 @@ define gui.show_name = True
 
 ## La version du jeu.
 
-define config.version = "0.5"
+define config.version = "0.1"
 
 
 ## Texte placé sur l'écran "À propos" du jeu. Placez le texte entre triples
@@ -40,7 +41,7 @@ define gui.about = _p("""
 ## l’exécutable. Il ne doit contenir que des caractères ASCII et ne doit pas
 ## contenir d’espace, de virgules ou de points-virgules.
 
-define build.name = "Omegasus"
+define build.name = "Vn_land_saga"
 
 
 ## Sons et musiques ############################################################
@@ -65,7 +66,7 @@ define config.has_voice = True
 ## diffusé quand le joueur sera sur le menu principal. Ce son se poursuivra dans
 ## le jeu, jusqu’à ce qu'il soit stoppé ou qu’un autre fichier soit joué.
 
-# define config.main_menu_music = "main-menu-theme.ogg"
+define config.main_menu_music = "audio/Beat Thee by Alexander Nakarada.mp3"
 
 
 ## Transitions #################################################################
@@ -125,7 +126,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## Contrôle la vitesse du texte. La valeur par défaut, 0, est infinie. Toute
 ## autre valeur est le nombre de caractères tapés par seconde.
 
-default preferences.text_cps = 25
+default preferences.text_cps = 0
 
 
 ## Le délai d’avancée automatique. Des nombres importants entraînent une longue
@@ -150,7 +151,7 @@ default preferences.afm_time = 15
 ## Cela ne devrait généralement pas changer. Si vous le faîtes, choisissez
 ## toujours une chaîne de caractères littéraux, pas une expression.
 
-define config.save_directory = "Omegasus-1670151375"
+define config.save_directory = "Vn_land_saga-1679044401"
 
 
 ## Icône #######################################################################
