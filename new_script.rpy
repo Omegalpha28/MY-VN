@@ -1,4 +1,16 @@
+
+# Définition de la fonction play_once()
+
+init python:
+    
+    def play_once(music):
+        music_played = False
+        if not music_played:
+            renpy.play(music)
+            music_played = True
+
 init:
+    
 
     $ main_inventory = []
     $ import time
@@ -16,10 +28,10 @@ init:
     define di = Character(('Director Zirou'), color="#063971")
     define u = Character(('???'), color="#3a3e798a")
     
-    
 
 
 label start:
+    stop music
     call intro
     jump begin
 
@@ -28,6 +40,8 @@ label start:
 label begin:
     call arc_one_chapter_one
     return  
+
+     
 
 
 
