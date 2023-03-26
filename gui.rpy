@@ -24,7 +24,7 @@ init python:
 
 ## Une couleur utilisée dans l’interface pour mettre l’accent sur un texte
 ## (surbrillance).
-define gui.accent_color = '#9933ff'
+define gui.accent_color = '#0099cc'
 
 ## La couleur utilisée pour le texte d’un bouton quand il n’a jamais été
 ## sélectionné ou survolé.
@@ -35,7 +35,7 @@ define gui.idle_color = '#888888'
 define gui.idle_small_color = '#aaaaaa'
 
 ## Cette couleur est utilisée pour les boutons et les barres qui sont survolées.
-define gui.hover_color = '#c184ff'
+define gui.hover_color = '#66c1e0'
 
 ## Cette couleur est utilisé pour le texte d’un bouton sélectionné, mais qui n’a
 ## pas le focus. Un bouton est sélectionné s’il est sur l’écran actuel ou si
@@ -49,49 +49,49 @@ define gui.insensitive_color = '#8888887f'
 ## Couleurs utilisées pour les portions de barres qui ne sont pas remplies.
 ## Elles ne sont pas utilisées directement, mais quand les fichiers d’images
 ## sont régénérés.
-define gui.muted_color = '#360c61'
-define gui.hover_muted_color = '#520e97'
+define gui.muted_color = '#003d51'
+define gui.hover_muted_color = '#005b7a'
 
 ## Les couleurs utilisées pour les dialogues et les menus de choix.
-define gui.text_color = '#038bfa8e'
-define gui.interface_text_color = '#f1ebebd7'
+define gui.text_color = '#ffffff'
+define gui.interface_text_color = '#ffffff'
 
 
 ## Polices et tailles de police ################################################
 
 ## Les polices utilisées pour le texte du jeu.
-define gui.text_font = "nasalization-rg.otf"
+define gui.text_font = "font/segoescb.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "Fake Serif.ttf"
+define gui.name_text_font = "font/segoescb.ttf"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
-define gui.interface_text_font = "nasalization-rg.otf"
+define gui.interface_text_font = "font/bahnschrift.ttf"
 
 ## La taille normale pour les dialogues.
-define gui.text_size = 40
+define gui.text_size = 33
 
 ## La taille pour le nom des personnages.
 define gui.name_text_size = 50
 
 ## La taille du texte dans l’interface de jeu.
-define gui.interface_text_size = 30
+define gui.interface_text_size = 45
 
 ## La taille des libellés dans l’interface de jeu.
-define gui.label_text_size = 32
+define gui.label_text_size = 36
 
 ## La taille du texte dans la zone de notification.
-define gui.notify_text_size = 20
+define gui.notify_text_size = 30
 
 ## La taille du titre du jeu.
-define gui.title_text_size = 115
+define gui.title_text_size = 90
 
 
 ## Menu du jeu et menu principal ###############################################
 
 ## Les images utilisées pour le menu principal et le menu du jeu.
-define gui.main_menu_background = "gui/main_menu2.jpg"
-define gui.game_menu_background = "gui/main_menu2.jpg"
+define gui.main_menu_background = "gui/main_menu.png"
+define gui.game_menu_background = "gui/game_menu.png"
 
 
 ## Dialogue ####################################################################
@@ -100,7 +100,7 @@ define gui.game_menu_background = "gui/main_menu2.jpg"
 ## fois.
 
 ## La hauteur de la fenêtre contenant les dialogues.
-define gui.textbox_height = 400
+define gui.textbox_height = 278
 
 ## L’emplacement vertical de la zone de texte à l’écran. 0.0 pour le haut, 0.5
 ## pour le centre et 1.0 pour le bas.
@@ -110,8 +110,8 @@ define gui.textbox_yalign = 1.0
 ## L’emplacement relatif à la zone de texte du nom du personnage en train de
 ## parler. La valeur peut être un nombre entier de pixels depuis la gauche ou le
 ## haut ou 0.5 pour le centre.
-define gui.name_xpos = 1000
-define gui.name_ypos = 300
+define gui.name_xpos = 360
+define gui.name_ypos = 0
 
 ## L’alignement horizontal du nom du personnage. La valeur peut être 0.0 pour un
 ## alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à droite.
@@ -137,7 +137,7 @@ define gui.dialogue_xpos = 402
 define gui.dialogue_ypos = 75
 
 ## La largeur maximale en pixels de la zone de dialogue.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 1135
 
 ## L’alignement horizontal de la zone de dialogue. La valeur peut être 0.0 pour
 ## un alignement à gauche, 0.5 pour le centrer et 1.0 pour un alignement à
@@ -242,7 +242,7 @@ define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## La largeur et la hauteur des vignettes de sauvegarde utilisée pour les
 ## emplacements de sauvegarde.
-define config.thumbnail_width = 390
+define config.thumbnail_width = 384
 define config.thumbnail_height = 216
 
 ## Le nombre de colonnes et de lignes pour la grille des emplacements de
